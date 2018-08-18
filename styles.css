@@ -1,0 +1,37 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	background-color: #404041;
+	height: 125px;
+}
+
+header p {
+	display: block;
+	text-align: center;
+}
+
+p {
+	display: inline-block;
+	margin: 3px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#user-guess {
+	margin-top: 10px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+.bottom-section {
+	text-align: center;
+}
+
+.small-btns {
+	text-align: center;
+
+}
