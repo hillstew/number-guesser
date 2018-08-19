@@ -34,7 +34,7 @@ section {
 	color: #EDE7E8;
 }
 
-#user-guess {
+.input-guess {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	margin-top: 32px;

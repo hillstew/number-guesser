@@ -14,23 +14,24 @@
 				<p class="guesser-header">Guesser</p>
 			</div>
 	</header>
+	<form>
+		<section>
+			<input type="number" class="input-guess" placeholder="Enter your guess" min="1" max="100">
+		</section>
 
-	<section>
-		<input type="number" id="user-guess" placeholder="Enter your guess" min="1" max="100">
-	</section>
+		<section class="small-btns">
+			<button name="guess" id="guess-btn" class="guess-clear-btn ">Guess</button>
+			<button name="clear" id="clear-btn" class="guess-clear-btn">Clear</button>
+		</section>
 
-	<section class="small-btns">
-		<button name="guess" id="guess-btn" class="guess-clear-btn">Guess</button>
-		<button name="clear" id="clear-btn" class="guess-clear-btn">Clear</button>
-	</section>
-
-	<section class="bottom-sec">
-		<p class="last-guess">Your last guess was</p><br>
-		<p class="twenty-five">25</p><br>
-		<p class="user-feedback">This was too high</p><br>
-		<button name="resetbtn" class="reset-btn">Reset</button>
-	</section>
-
+		<section class="bottom-sec">
+			<p class="user-instruct">Guess a number between 1 - 100.</p><br>
+			<p class="twenty-five">25</p><br>
+			<p class="user-feedback">This was too high</p><br>
+			<button name="resetbtn" class="reset-btn">Reset</button>
+		</section>
+	</form>
+<script type="text/javascript" src="scripts.js"></script>
 </body>
 
 </html>
