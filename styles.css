@@ -1,15 +1,18 @@
 body {
 	font-family: 'Open Sans', sans-serif;
+	margin: 0;
 }
 
 header {
 	background-color: #404041;
+	display: block;
 	height: 125px;
+	font-size: 50px;
+	text-align: center;
 }
 
-header p {
-	display: block;
-	text-align: center;
+div {
+	padding: 18px;
 }
 
 p {
@@ -18,20 +21,70 @@ p {
 	font-family: 'Open Sans', sans-serif;
 }
 
+section {
+	text-align: center;
+}
+
+.number-header {
+	color: #ED458B;
+	font-weight: 700;
+}
+
+.guesser-header {
+	color: #EDE7E8;
+}
+
 #user-guess {
-	margin-top: 10px;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	margin-top: 32px;
+	width: 371px;
+  height: 28px;
 }
 
+.guess-clear-btn {
+	background-color: #929497;
+	border-radius: 20px;
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	height: 35px;
+	margin: 25px 10px;
+	padding: 2px;
+	width: 160px;
+} 
 
-
-.bottom-section {
-	text-align: center;
+.guess-clear-btn:disabled {
+	background-color: #D0D2D3;
 }
 
-.small-btns {
-	text-align: center;
+.guess-clear-btn:hover {
+	background-color: #EB008B;
+}
 
+.twenty-five {
+	color: #EB008B;
+	font-size: 1000%;
+	height: 200px;
+}
+
+.last-guess {
+	color: #404041;
+	font-size: 30px;
+}
+
+.reset-btn {
+	background-color: #929497;
+	border-radius: 20px;
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	height: 35px;
+	margin-top: 30px;
+	width: 30%;
+}
+
+.reset-btn:hover {
+	background-color: #EB008B;
 }
